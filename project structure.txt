@@ -1,0 +1,18 @@
+quiz-app/
+│
+├── backend/               # Backend (Node.js + Express)
+│   ├── controllers/        # Handle HTTP requests and responses
+│   ├── models/             # Database models
+│   ├── routes/             # Define routes (API endpoints)
+│   ├── config/             # Database configuration
+│   ├── app.js              # Entry point for the application
+│   └── server.js           # Start server
+│
+├── frontend/              # Frontend (HTML, CSS, JS)
+│   ├── index.html          # Main quiz interface
+│   ├── style.css           # Styling for the quiz
+│   └── script.js           # Logic for quiz behavior
+│
+├── node_modules/           # Node.js dependencies
+├── package.json            # Project metadata and dependencies
+└── .env                    # Environment variables (DB config, etc.)
