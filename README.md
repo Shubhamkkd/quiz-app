@@ -92,3 +92,27 @@ Scoring system to track users' results.
 Timer for each question.
 Show a summary of the user’s score after completing the quiz.
 Pagination for a larger set of questions.
+# Quiz Application
+
+This is a simple web application for managing quizzes. It allows users to register, log in, take quizzes, and view their profile.
+
+## Features:
+- User Registration & Login
+- User Profile Management
+- Quizzes & Questions Management
+- Database Integration with MySQL
+- Unit Tests for Service & DAO layers
+
+## Requirements:
+- Java 8 or higher
+- MySQL 5.7 or higher
+- Apache Tomcat or any servlet container
+- Maven for dependency management
+
+## Setup Instructions:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/your-repository/quiz-application.git
+
