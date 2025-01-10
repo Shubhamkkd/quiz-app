@@ -1,0 +1,48 @@
+src/
+ |
+ |
+ |
+main/
+ |   |
+ |   |
+ |   |__dao/
+ |   |  |   
+ |   |  |__UserDAO.java
+ |   |
+ |   |__service/
+ |   |     |
+ |   |     |__UserService.java
+ |   |
+ |   |__servlet/
+ |   |      |
+ |   |      |__RegisterServlet.java
+ |   |      |__ProfileServlet.java
+ |   |
+ |   |__model/
+ |         |
+ |         |__User.java
+ |   
+ |   
+ |   
+test/
+ |  |__dao/
+ |  |    |
+ |  |    |__UserDAOTest.java
+ |  |
+ |  |__service/
+ |        |
+ |        |__UserServiceTest.java
+ |
+ |
+WEbContent/
+    |  |
+    |  |__web.xml
+    |
+    | 
+   JSP/
+     |
+     |__index.jsp
+     |
+     |__register.jsp
+     |
+     |__progile.jsp
